@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "description": "neko stylelint",
   "main": "index.js",
+  "bundleDependencies": false,
+  "deprecated": false,
   "scripts": {},
   "keywords": [],
   "author": "moneko",
@@ -11,7 +13,8 @@
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "^5.0.0",
+    "stylelint-webpack-plugin": "^3.1.1"
   },
   "files": [
     "index.js"
