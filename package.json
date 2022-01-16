@@ -1,14 +1,12 @@
 {
-  "name": "plugin-stylelint",
-  "version": "1.0.15",
-  "description": "",
+  "name": "stylelint-config-neko",
+  "version": "1.0.0",
+  "description": "neko stylelint",
   "main": "index.js",
-  "scripts": {
-    "prepublishOnly": "npm version patch"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "moneko",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
