@@ -38,5 +38,6 @@ module.exports = {
       },
     ],
   },
+  customSyntax: 'postcss-less',
   ignoreFiles: ["src/styles/var.less"],
 };
