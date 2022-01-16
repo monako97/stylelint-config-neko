@@ -1,4 +1,4 @@
-let stylelintConfig = {
+module.exports = {
   extends: [
     'stylelint-config-standard',
     "stylelint-config-prettier",
@@ -40,12 +40,3 @@ let stylelintConfig = {
   },
   ignoreFiles: ["src/styles/var.less"],
 };
-
-try {
-  stylelintConfig = {
-    ...stylelintConfig,
-    ...require(path.join(process.cwd(), "./stylelint.config.js")),
-  };
-} catch (error) {}
-
-module.exports = stylelintConfig;
