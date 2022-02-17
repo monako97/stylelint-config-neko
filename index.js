@@ -15,7 +15,7 @@ module.exports = {
     "no-invalid-double-slash-comments": null,
     "comment-empty-line-before": null,
     "declaration-empty-line-before": null,
-    "unit-allowed-list": ["vw", "vh", "px", "%", "em", "rem", "s", "deg", "ms"],
+    "unit-allowed-list": ["vw", "vh", "px", "%", "em", "rem", "s", "deg", "ms", "ex", "ch"],
     "order/order": ["custom-properties", "declarations", "dollar-variables", "rules", "at-rules"],
 		"order/properties-order": [
 			"width",
